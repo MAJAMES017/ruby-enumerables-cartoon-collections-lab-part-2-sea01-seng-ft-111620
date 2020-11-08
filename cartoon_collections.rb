@@ -22,12 +22,14 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   i = 0
-  if  array.any? {|i| i.length > 4}
-    return true
-  else
-    return false
-  i = i + 1
-end
+   if  array.any? {|i| i.length > 4}
+     return true
+   else
+     return false
+   i = i + 1
+   end
+ end
+ long_planeteer_calls(call_screams)
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
