@@ -29,7 +29,7 @@ def long_planeteer_calls(array)
    i = i + 1
    end
  end
- long_planeteer_calls(call_screams)
+
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
